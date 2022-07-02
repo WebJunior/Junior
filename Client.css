@@ -1,0 +1,607 @@
+body{
+    margin: 0;
+}
+.bar{
+    width: 90%;
+    margin: auto;
+}
+.bar .bar-txt{
+    height: 60px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.bar .bar-txt h3{
+    color: white;
+}
+.bar .bar-txt:hover h3{
+    color:  gold;
+}
+.bar .bar-seach{
+    height: 60px;
+}
+.bar .bar-search .box-search{
+    width: 90%;
+    height: 75%;
+    margin-top: 6px;
+    float: right;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.bar .bar-search .box-search .int-search{
+    width: 75%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+.bar .bar-search .box-search .int-search .form-control{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 0;
+}
+.bar .bar-search .box-search .btn-search{
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+.bar .bar-search .box-search .btn-search input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 0;
+    font-size: 20px;
+}
+.menu-box{
+    width: 90%;
+    margin: auto;
+    height: 50px;
+}
+.menu-box .logo-box{
+    width: 30%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.menu-box .menu{
+    width: 70%;
+    height: 100%;
+    display: inline-block;
+}
+.menu-box .menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.menu-box .menu ul li{
+    display: inline-block; 
+}
+.menu-box .menu ul li a{
+    color:black;
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    font-size: 18px;
+    text-shadow: 0.5px 0px 0px gold;
+}
+.menu-box .menu ul li a:hover{
+    /* color: rgb(47, 115, 240); */
+    background-color: rgb(251, 44, 86);
+}
+.slide-box{
+    width: 100%;
+    /* margin-top: 20px; */
+    height: 500px;
+    position: relative;
+}
+.slide-box a img{
+    float: right;
+    height: 100%;
+}
+.slide-box .txt-slide{
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    left: 10%;
+    top: 25%;
+}
+.slide-box .txt-slide h6{
+    color: rgb(248, 44, 84);
+    font-size: 26px;
+    font-weight: 500;
+}
+.slide-box .txt-slide h1{
+    font-size: 60px;
+}
+.slide-box .txt-slide h5 .full-price{
+    color: crimson;
+    text-decoration: line-through;
+}
+.slide-box .txt-slide h5 .dis-price{
+    color: rgb(47, 115, 240);
+}
+.slide-box .txt-slide button{
+    border-radius: 30px;
+    padding: 10px;
+    width: 150px;
+    background-color: rgb(253, 52, 92);
+    border:none;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.slide-box .txt-slide button:hover{
+    background-color:  rgb(47, 115, 240);
+}
+.new-pro{
+    width: 95%;
+    height: 380px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.new-pro .new{
+    display: inline-block;
+    width: 32%;
+    height: 100%;
+    border-radius: 15px;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+.new-pro .new:nth-child(2){
+    margin-left: 21px;
+}
+.new-pro .new:nth-child(3){
+    margin-left: 21px;
+}
+.new-pro .new img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.new-pro .new .txt-new{
+    position: absolute;
+    right: 0;
+    top: 30%;
+    width: 300px;
+    height: 150px;
+}
+.new-pro .new .txt-new h5{
+    font-size: 22px;
+    color: rgb(160, 157, 157);
+}
+.new-pro .new .txt-new:hover h5{
+    color:gold;
+}
+.new-pro .new .txt-new h2{
+    color: white;
+    text-shadow: 1px 0 0 gold;
+}
+.new-pro .new .txt-new:hover h2{
+    color: rgb(47, 115, 240); ;
+}
+.new-pro .new .txt-new button{
+    border-radius: 25px;
+    background-color: rgb(253, 52, 92);
+    margin-top: 20px;
+}
+.mid{
+    margin: auto;
+    width: 95%;
+    height: 80px;
+    margin-top: 50px;
+}
+.mid .txt-mid{
+    width: 75%;
+    height: 100%;
+    float: left;
+}
+.mid .txt-mid p{
+    font-size: 18px;
+}
+.mid .btn-mid{
+    width: 25%;
+    height: 100%;
+    float: right;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+}
+.mid .btn-mid button{
+    background-color: rgb(253, 52, 92);
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+.box-mid{
+    width: 95%;
+    margin-top: 40px;
+}
+.box-mid .mid-pro{
+    height:450px; 
+}
+.box{
+    overflow: hidden;
+    transition: 0.5s;
+    border: 1px solid rgba(105, 105, 105, 0.201);
+    border-radius: 10px;
+}
+.box:hover{
+    box-shadow: 1px 1px 1px 1px rgba(105, 105, 105, 0.201);
+    border: none;
+    border-radius: 10px;
+}
+.box-mid .mid-pro .box .img-box{
+    width: 100%;
+    height:270px;
+    overflow: hidden;
+}
+.box-mid .mid-pro .box .img-box a img{
+    width: 100%;
+    height: 100%;
+}
+.box-mid .mid-pro .box .txt-box{
+    width: 100%;
+    height: 110px;
+    border-top: 0;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.box-mid .mid-pro .box:hover .txt-box{
+    height:180px;
+    transition: 0.5s;
+}
+.box-mid .mid-pro .box .txt-box h6{
+    font-size: 20px;
+}
+.box-mid .mid-pro .box .txt-box h5 .full-price{
+    text-decoration: line-through;
+    color: crimson;
+}
+.box-mid .mid-pro .box .txt-box h5 .dis-price{
+    text-decoration: underline;
+    color: rgb(47, 115, 240); ;
+}
+.box-mid .mid-pro .box .txt-box h5 .dis-percent{
+    color: greenyellow;
+    font-size: 16px;
+}
+.box-mid .mid-pro .box .txt-box button{
+    background-color: rgb(253, 52, 92);
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 5px 15px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+.see{
+    height: 200px;
+}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.bar .bar-txt h3{
+       font-size: 23px;
+    }
+    .menu-box .menu ul li a{
+       font-size: 18px;
+       padding: 8px;
+       line-height: 35px;
+    }
+    .slide-box{
+       height: 400px;
+    }
+    .slide-box .txt-slide{
+        width: 500px;
+    }
+    .slide-box .txt-slide h1{
+        font-size: 50px;
+    }
+    .new-pro{
+        height: 300px;
+        display: flex;
+        justify-content: center;
+    }
+    .new-pro .new{
+        width: 30%;
+    }
+    .new-pro .new .txt-new{
+        position: absolute;
+        right: 0;
+        top: 30%;
+        width: 250px;
+        height: 150px;
+    }
+    .new-pro .new .txt-new:hover h5{
+        font-size: 20px;
+    }
+    .new-pro .new .txt-new h2{
+        font-size: 26px;
+    }
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .bar .bar-txt h3{
+        font-size: 20px;
+    }
+    .bar .bar-search .box-search{
+        width: 100%;
+    }
+    .bar .bar-search .box-search .btn-search input{
+        font-size: 17px;
+    }
+    .menu-box{
+        width: 100%;
+    }
+    .menu-box .logo-box a img{
+        height: 40px;
+        margin-top: 5px;
+    }
+    .menu-box .menu ul li a{
+        font-size: 14px;
+        padding: 8px;
+        line-height: 35px;
+     }
+     .menu-box .menu ul li:nth-child(6) a{
+        display: none;
+     }
+     .slide-box{
+        height: 300px;
+        width: 100%;
+     }
+    .slide-box .txt-slide{
+         width: 500px;
+         height: 250px;
+         position: absolute;
+         left: 7%;
+         top: 15%;
+     }
+    .slide-box .txt-slide h1{
+         font-size: 40px;
+     }
+    .new-pro{
+        height: 250px;
+    }
+    .new-pro .new{
+        width: 30%;
+    }
+    .new-pro .new .txt-new{
+        width: 200px;
+        height: 150px;
+    }
+    .new-pro .new .txt-new:hover h5{
+        font-size: 18px;
+    }
+    .new-pro .new .txt-new h2{
+        font-size: 22px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){ 
+    .bar .bar-txt{
+        height: 30px;
+        justify-content: center;
+    }
+    .bar .bar-txt h3{
+        font-size: 22px;
+    }
+    .bar .bar-search .box-search{
+        width: 100%;
+    }
+    .bar .bar-search .box-search .btn-search input{
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    .menu-box{
+        width: 100%;
+    }
+    .menu-box .logo-box a img{
+        height: 35px;
+        margin-top: 5px;
+    }
+    .menu-box .menu ul li a{
+        font-size: 16px;
+        padding: 8px;
+        line-height: 35px;
+     }
+     .menu-box .menu ul li .hide{
+        display: none;
+     }
+     .menu-box .menu ul li:not(.show){
+        display: none;
+     }
+     .slide-box{
+        height: 200px;
+        width: 100%;
+     }
+    .slide-box .txt-slide{
+        width: 400px;
+        height: 180px;
+        position: absolute;
+        left: 5%;
+        top: 10%;
+     }
+    .slide-box .txt-slide h6{
+        font-size: 18px;
+    }
+     .slide-box .txt-slide h1{
+        font-size: 30px;
+    }
+    .slide-box .txt-slide h5 .full-price{
+        font-size: 16px;
+    }
+    .slide-box .txt-slide h5 .dis-price{
+        font-size: 16px;
+    }
+    .slide-box .txt-slide button{
+        padding: 5px;
+        width: 100px;
+        font-size: 16px;
+        margin-top: 0;
+    }
+    .new-pro{
+        height: 200px;
+        display: flex;
+        justify-content: center;
+    }
+    .new-pro .new{
+        width: 100%;
+    }
+    .new-pro .new:nth-child(2){
+        margin-left: 0;
+    }
+    .new-pro .new:nth-child(1){
+        display: none;
+    }
+    .new-pro .new .txt-new{
+        width: 230px;
+        height: 150px;
+        position: absolute;
+        right: 0;
+        top: 10%;
+    }
+    .new-pro .new .txt-new:hover h5{
+        font-size: 18px;
+    }
+    .new-pro .new .txt-new h2{
+        font-size: 24px;
+    }
+    .mid{
+        width: 100%;
+    }
+    .mid .txt-mid h1{
+        font-size: 32px;
+    }
+    .mid .txt-mid p{
+        font-size: 15px;
+    }
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .bar .bar-txt{
+        height: 30px;
+        justify-content: center;
+    }
+    .bar .bar-txt h3{
+        font-size: 20px;
+    }
+    .bar .bar-search .box-search{
+        width: 100%;
+    }
+    .bar .bar-search .box-search .btn-search input{
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    .menu-box{
+        width: 100%;
+    }
+    .menu-box .logo-box a img{
+        height: 35px;
+        margin-top: 5px;
+    }
+    .menu-box .menu ul li a{
+        font-size: 13px;
+        padding: 7px;
+        line-height: 35px;
+     }
+     .menu-box .menu ul li .hide{
+        display: none;
+     }
+     .menu-box .menu ul li:not(.show){
+        display: none;
+     }
+     .slide-box{
+        height: 200px;
+        width: 100%;
+     }
+    .slide-box .txt-slide{
+        width: 400px;
+        height: 180px;
+        position: absolute;
+        left: 2%;
+        top: 10%;
+     }
+     .slide-box .txt-slide h6{
+        font-size: 18px;
+    }
+     .slide-box .txt-slide h1{
+        font-size: 30px;
+    }
+    .slide-box .txt-slide h5 .full-price{
+        font-size: 16px;
+    }
+    .slide-box .txt-slide h5 .dis-price{
+        font-size: 16px;
+    }
+    .slide-box .txt-slide button{
+        padding: 5px;
+        width: 100px;
+        font-size: 16px;
+        margin-top: 0;
+    }
+    .new-pro{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+    }
+    .new-pro .new{
+        width: 100%;
+    }
+    .new-pro .new:nth-child(3){
+        margin-left: 0;
+    }
+    .new-pro .new:nth-child(2){
+        display: none;
+    }
+    .new-pro .new:nth-child(1){
+        display: none;
+    }
+    .new-pro .new .txt-new{
+        width: 250px;
+        height: 150px;
+        position: absolute;
+        right:0;
+        top:50%;
+        transform: translate(-50%,-50%);
+    }
+    .new-pro .new .txt-new:hover h5{
+        font-size: 18px;
+    }
+    .new-pro .new .txt-new h2{
+        font-size: 24px;
+    }
+    .mid{
+        width: 100%;
+        height: 70px;
+    }
+    .mid .btn-mid button{
+        padding: 5px 10px;
+    }
+    .mid .txt-mid h1{
+        font-size: 28px;
+    }
+    .mid .txt-mid p{
+        font-size: 15px;
+    }
+}
